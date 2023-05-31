@@ -1,0 +1,106 @@
+/* ---App--- */
+
+div.app {
+  margin: 24px 16px;
+}
+
+/* ---form--- */
+
+label,
+.label {
+  display: block;
+  margin: 16px 0 4px;
+}
+input {
+  height: 36px;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+}
+
+input[type="text"] {
+  padding-left: 8px;
+}
+
+#count-value {
+  margin: 8px;
+}
+button {
+  margin-top: 30px;
+  width: 50%;
+  max-width: 110px;
+  display: block;
+  background-color: #04aa6d66;
+  height: 36px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+}
+button:hover {
+  background-color: #04aa6d88;
+  cursor: pointer;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 200px;
+  height: 8px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+/* ---output--- */
+
+.output-title {
+  margin-top: 48px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 280px;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+table th:first-child {
+  width: 80%;
+}
